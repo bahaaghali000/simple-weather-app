@@ -2,7 +2,7 @@
 
 <h3>First Task as a react developer at <a href="https://www.syncinterns.com/">Sync intern's</a></h3>
 
-<h2><a href="">Live Demo</a></h2>
+<h2><a href="https://simple-weather-bahaaghali000.onrender.com/">Live Demo</a></h2>
 
 <img src="./src/assets/imgs/preview.png" />
 
