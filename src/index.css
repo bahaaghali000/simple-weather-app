@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #08131e;
+  --text-color: #c2cad3;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color); 
+}
+
+input{
+  @apply w-full px-2 py-3 bg-slate-800 mb-8 rounded-xl border-none outline-none;
+}
+
+@media screen and (max-width: 548px) {
+  .temp{
+    @apply text-4xl;
+  }
+  .main-container{
+    @apply pl-1 pr-7;
+  }
+  main{
+    @apply px-2;
+  }
+}
